@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>在线抽奖 随机选取 自动挑选</title>
+    <title>我吃什么</title>
     <script src="https://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
     <style>
         body {
@@ -35,8 +35,8 @@
         }
         #btn {
             float:left;
-            width:100px;
-            height:30px;
+            width:500px;
+            height:150px;
             margin-left:10px;
             margin-top:150px;
         }
@@ -71,7 +71,7 @@
 <div class="wrapDiv">
     <div id="leftBox" class="leftBox"></div>
     <div id="selectedName" class="selectedName">
-        <h1>中奖者名单</h1>
+        <h1>食物名单</h1>
     </div>
 
     <input type="button" id="btn" value="开始走起">
@@ -79,9 +79,7 @@
 
 <script>
     // 模拟后台数据
-    var arr = ["炸鸡", "螺蛳粉", "汉堡", "粥", "炒菜", "虾煲", "07", "08", "09", "10",
-        "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21",
-        "22", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+    var arr = ["炸鸡", "螺蛳粉", "汉堡", "粥", "炒菜", "虾煲", "面条", "豆沙包", "烤鱼"
     ];
 
     var orgArrCount = arr.length;
